@@ -1,219 +1,227 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <title>Ohmyfood! - A la française</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Ohmyfood!</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
-<!-- Header -->
+    </head>
+    <body>
 
-    <header id="header">
-        <div id="back" >
-            <i class="fas fa-arrow-left"></i>
-        </div>
+        <!-- Header -->
 
-        <a class="logo" href="../index.html">
-            <img src="../images/logo/ohmyfood.png" alt="logoohmyfood!">
-        </a>
-    </header>
+        <header id="header">
 
-<!-- Main -->
-
-    <main>
-
-        <div class="banniere">
-            <img src="../images/restaurants/LaPaletteDuGout.jpg">
-        </div>
-
-        <div class="entete">
-            <h2 class="fonlogo_font">La Palette du goût</h2>
-            <i class="far fa-heart clic coeur_vide"></i>
-            <i class="fas fa-heart clic couleur coeur_plein"></i>
-        </div>
-
-
-
-        <section id="entrees">
-            <h3>ENTREES</h3>
-
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="entree_1">
-                <label class="prix" for="entree_1">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
+            <div class="previous">
+                <a class="back" href="../index.html">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
             </div>
 
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="entree_2">
-                <label class="prix" for="entree_2">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
+            <div>
+                <a class="logo" href="../index.html">
+                    <img src="../images/logo/ohmyfood.png" alt="logoohmyfood!">
+                </a>
             </div>
 
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="entree_3">
-                <label class="prix" for="entree_3">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
+        </header>
+
+
+
+        <!-- Main -->
+
+        <main>
+
+            <div class="banniere">
+                <img src="../images/restaurants/LaPaletteDuGout.jpg">
             </div>
 
-        </section>
-
-        <section id="plats">
-                <h4>PLATS</h4>
-
-                <div class="plat_check">
-                    <input type="checkbox" class="hidden_check" id="plat_1">
-                    <label class="prix" for="plat_1">
-                    <span class="plat_1">
-                        <p class="bold">Fricassée d'escargots</p>
-                        <p>Au piment d'espelette</p>
-                    </span>
-                    <span class="plat_2 bold">25€</span>
-                    <span class="plat_4">
-                        <span class="coche-verte"> </span>
-                    </span>
-                    </label>
+            <div class="entete flex">
+                <h2 class="shrikhand">A la française</h2>
+                <div class="flex">
+                    <i class="far fa-heart clic coeur_vide"></i>
+                    <i class="fas fa-heart clic couleur coeur_plein"></i>
                 </div>
+            </div>
 
-    
-                <div class="plat_check">
-                    <input type="checkbox" class="hidden_check" id="plat_2">
-                    <label class="prix" for="plat_2">
-                    <span class="plat_1">
-                        <p class="bold">Fricassée d'escargots</p>
-                        <p>Au piment d'espelette</p>
+
+
+            <section id="entrees" class="fadein_1">
+                <!-- Menu entrées -->
+                <h3>ENTREES</h3>
+                <div class="border_h4"></div>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Tartaree de poulpe acidulé</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Aux zests d'orange</span>
+                            <span class="bold prix">25€</span>
+                        </span>
                     </span>
-                    <span class="plat_2 bold">25€</span>
-                    <span class="plat_4">
-                        <span class="coche-verte"> </span>
+                </button>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Velouté de légumes d'antan</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Carotte, panais, topinambour</span>
+                            <span class="bold prix">35€</span>
+                        </span>
                     </span>
-                    </label>
+                </button>
+                
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Soupe à l'oignon</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Revisité</span>
+                            <span class="bold prix">20€</span>
+                        </span>
+                    </span>
+                </button>
+
+            </section>
+
+            <section id="plats" class="fadein_2">
+                <!-- menu plats -->
+                <h3>PLATS</h3>
+                <div class="border_h4"></div>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Coquilles Saint-Jacques</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Accompagné d'une purée de panais'</span>
+                            <span class="bold prix">40€</span>
+                        </span>
+                    </span>
+                </button>
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Magret de canard</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Et parmentier de pommes de terres</span>
+                            <span class="bold prix">35€</span>
+                        </span>
+                    </span>
+                </button>
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Pigeonneau d'Ille-et-Vilaine</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Sur son lit de gnocchis aux légumes</span>
+                            <span class="bold prix">44€</span>
+                        </span>
+                    </span>
+                </button>
+            </section>
+
+            <section id="desserts" class="fadein_3">
+                <!-- menu desserts -->
+                <h3>DESSERTS</h3>
+                <div class="border_h4"></div>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Pétales de violettes glacés</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Et purée de noisettes </span>
+                            <span class="bold prix">18€</span>
+                        </span>
+                    </span>
+                </button>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Fondant au chocolat</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Revisité</span>
+                            <span class="bold prix">22€</span>
+                        </span>
+                    </span>
+                </button>
+
+                <button class="plat_check effet_1 effet_2 effet_3">
+                    <!-- un choix de plat -->
+                    <span class="plat_txt">
+                        <!-- titre du plat-->
+                        <span class="details titre">Millefeuille croustillant</span>
+                        <span class="plat_prix">
+                            <!-- text du plat avec le prix-->
+                            <span class="details">Myrtilles et pâte d'amande</span>
+                            <span class="bold prix">23€</span>
+                        </span>
+                    </span>
+                </button>
+
+            </section>
+
+            <a href="#" class="commander">
+                <div class="commander">
+                    <input class="button bold" type="button" value="Commander">
                 </div>
-
-    
-                <div class="plat_check">
-                    <input type="checkbox" class="hidden_check" id="plat_3">
-                    <label class="prix" for="plat_3">
-                    <span class="plat_1">
-                        <p class="bold">Fricassée d'escargots</p>
-                        <p>Au piment d'espelette</p>
-                    </span>
-                    <span class="plat_2 bold">25€</span>
-                    <span class="plat_4">
-                        <span class="coche-verte"> </span>
-                    </span>
-                    </label>
-                </div>
-
-        </section>
-
-        <section id="desserts">
-            <h4>DESSERTS</h4>
-
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="dessert_1">
-                <label class="prix" for="dessert_1">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
-            </div>
+            </a>
 
 
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="dessert_2">
-                <label class="prix" for="dessert_2">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
-            </div>
+        </main>
 
 
-            <div class="plat_check">
-                <input type="checkbox" class="hidden_check" id="dessert_3">
-                <label class="prix" for="dessert_3">
-                <span class="plat_1">
-                    <p class="bold">Fricassée d'escargots</p>
-                    <p>Au piment d'espelette</p>
-                </span>
-                <span class="plat_2 bold">25€</span>
-                <span class="plat_4">
-                    <span class="coche-verte"> </span>
-                </span>
-                </label>
-            </div>
 
-        </section>
+        <!-- Footer -->
 
-        <div class="commander">
-            <input class="button bold" type="button" value="Commander">
-        </div>
+        <footer id="footer">
 
-    </main>
-
-<!-- Footer -->
-
-    <footer id="footer">
-
-        <img class="white" src="../images/logo/ohmyfood_white.png" alt="logo">
-        
-        <a href="#">        
-            <div class="row">
+            <img class="white" src="../images/logo/ohmyfood_white.png" alt="logo">
+            
+            <a href="#">        
+                <div>
                 <i class="fas fa-utensils"></i>
-                <p>Proposez un restaurant</p>
-            </div>
-        </a>
+                <p>Proposer un restaurant</p>
+                </div>
+            </a>
 
-        <a href="#">
-            <div class="row">
-                <i class="fas fa-handshake-angle"></i>
-                <p>Devenir partenaire</p>
-            </div>
-        </a>
+            <a href="#">
+                <div>
+                    <i class="fas fa-handshake-angle"></i>
+                    <p>Devenir partenaire</p>
+                </div>
+            </a>
 
-        <a href="#"><p>Mentions légales</p></a>
-        <a href="#"><p>Contact</p></a>
+            <a href="#"><p>Mentions légales</p></a>
+            <a href="mailto:adresse@mail.fr"><p>Contact</p></a>
 
-    </footer>
+        </footer>
 
-</body>
+    </body>
+</html>

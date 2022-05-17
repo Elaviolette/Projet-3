@@ -168,6 +168,122 @@ to {
     text-overflow: ellipsis;
 }
 
+@media only screen and (max-width : 300px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 100px;
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width : 350px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 100px;
+        background: none;
+    }
+    
+    .logo img {
+        width: 200px;
+    }
+
+    .white {
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width : 400px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 100px;
+        background: none;
+    }
+
+    .logo img {
+        width: 250px;
+    }
+
+    .white {
+        width: 250px;
+    }
+
+}
+
+@media only screen and (max-width : 450px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 100px;
+        background: none;
+    }
+
+    .logo img {
+        width: 300px;
+    }
+
+    .white {
+        width: 300px;
+    }
+
+    #restaurants article {
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width : 500px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 100px;
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width : 550px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 75px;
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+    .back {
+        display: flex;
+        position: relative;
+        left: 50px;
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width : 650px) {
+
+    body{
+        font-size: 150%;
+    }
+
+    #restaurants article {
+        height: 300px;
+    }
+}
+
 @media only screen and (max-width : 768px) {
 
     html {
@@ -1619,4 +1735,26 @@ to {
         }
     }
 
+}
+
+@media only screen and (min-width : 1080px) {
+
+    .back {
+        display: flex;
+        position: absolute;
+        left: 25px;
+        top: 40px;
+    }
+
+}
+
+@media only screen and (min-width : 769px) and (max-width: 1080px) {
+
+    .back {
+        display: flex;
+        position: absolute;
+        left: 25px;
+        top: 40px;
+    }
+    
 }

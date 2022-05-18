@@ -703,55 +703,34 @@ to {
     }
 
     /* Icones */
-
-
-    .icon {
-        width: 48px;
-        height: 48px;
-        display: inline-block;
-        
-        -webkit-mask: url(../images/icones/handshake-angle-solid.svg) no-repeat 50% 50%;
-        mask: url(../images/icones/handshake-angle-solid.svg) no-repeat 50% 50%;
-        -webkit-mask-size: cover;
-        mask-size: cover;
-      }
       
-      .icon-white { background-color: white; }
-      .icon-orange { background-color: black; }
-      .icon-green { background-color: #99E2D0; }
-      .icon-purple { background-color: #9356DC; }
+    .icon-white { background-color: white; }
+    .icon-orange { background-color: black; }
+    .icon-green { background-color: #99E2D0; }
+    .icon-purple { background-color: #9356DC; }
 
       
-      /* LAYOUT */
-      html, body { height: 100%; }
+    /* LAYOUT */
+    html, body { height: 100%; }
       
-      body { 
+    body { 
         background: #fcfcfc; 
         margin: 0;
-      }
-      
-      .wrap { 
+    }
+    
+    .wrap { 
         position: absolute;
         top: 50%;
         -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
         width: 100%;
         text-align: center;
-      }
-      
-      label.prix::after {
-          transition: 0.5s;
-      }
-
-      .plat_2 .bold::after {
-          /*transform: rotate(180deg) 0.5s;*/
-          transition-duration: 3s;
-        transition: margin-right 2s;
-      }
+    }
+    
 
 
-          /********** coeurs **********/
+    /********** coeurs **********/
     /* Coeur page d'accueil */
 
     .coeur_vide {
@@ -1170,7 +1149,7 @@ to {
         content: "\f058";
         -webkit-transform: rotate(1turn);
         -ms-transform: rotate(1turn);
-        transform: 2s rotate(1turn);
+        transform: rotate(1turn);
         animation: spin linear 3s alternate;
     }
 

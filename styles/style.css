@@ -271,6 +271,7 @@ to {
     #explorer input {
         margin-bottom: 5%;
         height: 70px;
+        Width: 100%;
     }
 
     input {
@@ -279,7 +280,7 @@ to {
         background: linear-gradient(to bottom right, #FF79DA, #9356DC);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border: none;
-        width: 60%;
+        width: 100%;
         height: 50px;
         margin: 2%;
         border-top-left-radius: 25px;
@@ -897,7 +898,7 @@ to {
         background: linear-gradient(to bottom right, #FF79DA, #9356DC);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border: none;
-        width: 60%;
+        width: 100%;
         height: 50px;
         margin: 2%;
         border-top-left-radius: 25px;
@@ -1697,6 +1698,10 @@ to {
 
     #restaurants article {
         height: 250px;
+    }
+
+    input {
+        font-size: 100%;
     }
 
 }

@@ -611,6 +611,7 @@ to {
         display: block;
         padding-top: 10px;
         font-size: 150%;
+        font-weight: bolder;
     }
 
     .plat_check .prix {
@@ -748,7 +749,7 @@ to {
         position: absolute;
         opacity: 0;
         align-items: center;
-        background: linear-gradient(163deg, #ff79da 24%, #9356dc 77%);
+        background: linear-gradient(#ff79da 24%, #9356dc 77%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -794,7 +795,7 @@ to {
     .entete .coeur_plein {
         opacity: 0;
         align-items: center;
-        background: linear-gradient(163deg, #ff79da 24%, #9356dc 77%);
+        background: linear-gradient(#ff79da 24%, #9356dc 77%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -1040,7 +1041,7 @@ to {
         position: absolute;
         opacity: 0;
         align-items: center;
-        background: linear-gradient(163deg, #ff79da 24%, #9356dc 77%);
+        background: linear-gradient(#ff79da 24%, #9356dc 77%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -1086,7 +1087,7 @@ to {
     .entete .coeur_plein {
         opacity: 0;
         align-items: center;
-        background: linear-gradient(163deg, #ff79da 24%, #9356dc 77%);
+        background: linear-gradient(#ff79da 24%, #9356dc 77%);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;

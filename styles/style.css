@@ -20,10 +20,10 @@
 }
   
 .path {
-stroke-dasharray: 1, 200;
-stroke-dashoffset: 0;
-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
-stroke-linecap: round;
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
 }
 
 @keyframes rotate {
@@ -270,7 +270,7 @@ to {
 
     #explorer input {
         margin-bottom: 5%;
-        height: 70px;
+        height: 50px;
         Width: 100%;
     }
 
@@ -322,7 +322,7 @@ to {
     }
 
     #fonctionnement div:hover  {
-        color: #BD89FB;
+        background-color: #F3E3FC;
     }
 
     .chiffre {
@@ -332,7 +332,7 @@ to {
         color: white;
         background: #9356DC;
         margin-left: -15px;
-        width: 6%;
+        width: 5%;
         height: 5%;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
@@ -383,7 +383,7 @@ to {
 
     .res_txt {
         display: flex;
-        margin: 2%;
+        margin: 3%;
         justify-content: space-between;
     }
 
@@ -580,7 +580,7 @@ to {
     }
     
     .effet_3:hover:before {
-        transform: rotate(1turn);
+        transform: rotate(2turn);
     }
 
     .plat_check {
@@ -683,27 +683,58 @@ to {
         background: none;
     }
 
-    .fadein_1 {
-        animation: fadein 2s;
-    }
-
-    .fadein_2 {
-        animation: fadein 4s;
-    }
-
-    .fadein_3 {
-        animation: fadein 6s;
-    }
-
     @keyframes fadein {
-        from {
+        0% {
             opacity:0;
         }
-        to {
+        100% {
             opacity:1;
         }
     }
+    
+    .fadein_1 {
+        animation: fadein .5s;
+    }
+    
+    .fadein_2 {
+        animation: fadein 1s;
+    }
+    
+    .fadein_3 {
+        animation: fadein 1.5s;
+    }
+    
+    .fadein_4 {
+        animation: fadein 2s;
+    }
+    
+    .fadein_5 {
+        animation: fadein 2.5s;
+    }
+    
+    .fadein_6 {
+        animation: fadein 3s;
+    }
+    
+    .fadein_7 {
+        animation: fadein 3.5s;
+    }
+    
+    .fadein_8 {
+        animation: fadein 4s;
+    }
+    
+    .fadein_9 {
+        animation: fadein 4.5s;
+    }
+    
+    .fadein_10 {
+        animation: fadein 5s;
+    }
+    
 
+
+    
     /* Icones */
       
     .icon-white { background-color: white; }
@@ -942,7 +973,7 @@ to {
     }
 
     #fonctionnement div:hover  {
-        color: #BD89FB;
+        background-color: #F3E3FC;
     }
 
     #fonctionnement div p {
@@ -1003,7 +1034,7 @@ to {
     
     .res_txt {
         display: flex;
-        margin: 2%;
+        margin: 3%;
         justify-content: space-between;
         align-items: center;
     }
@@ -1140,26 +1171,26 @@ to {
         right: -5em;
         box-shadow: 0 0 5px black;
         transition: all 0.5s linear 0s;
-        -webkit-transform: rotate(1turn);
-        -ms-transform: rotate(1turn);
-        transform: rotate(1turn);
+        -webkit-transform: rotate(2turn);
+        -ms-transform: rotate(2turn);
+        transform: rotate(2turn);
         animation: spin 3s linear 3s alternate;
     }
 
     .plat_4.spin {
         font-family: "Font Awesome 5 Free";
         content: "\f058";
-        -webkit-transform: rotate(1turn);
-        -ms-transform: rotate(1turn);
-        transform: rotate(1turn);
+        -webkit-transform: rotate(2turn);
+        -ms-transform: rotate(2turn);
+        transform: rotate(2turn);
         animation: spin linear 3s alternate;
     }
 
     label.prix.coche-verte:after {
         transition: all 0.5s linear 0s;
-        -webkit-transform: rotate(1turn);
-        -ms-transform: rotate(1turn);
-        transform: rotate(1turn);
+        -webkit-transform: rotate(2turn);
+        -ms-transform: rotate(2turn);
+        transform: rotate(2turn);
         animation: spin 3s linear 3S;
     }
     
@@ -1168,9 +1199,9 @@ to {
         position: absolute;
         display: block;
         transition: all 0.5s linear 0s;
-        -webkit-transform: rotate(1turn);
-        -ms-transform: rotate(1turn);
-        transform: rotate(1turn);
+        -webkit-transform: rotate(2turn);
+        -ms-transform: rotate(2turn);
+        transform: rotate(2turn);
         animation: spin 3s linear 3S;
     }
 
@@ -1180,9 +1211,9 @@ to {
         position: absolute;
         display: block;
         transition: all 0.5s linear 0s;
-        -webkit-transform: rotate(1turn);
-        -ms-transform: rotate(1turn);
-        transform: rotate(1turn);
+        -webkit-transform: rotate(2turn);
+        -ms-transform: rotate(2turn);
+        transform: rotate(2turn);
         animation: spin 3s linear 3S;
     }
 
@@ -1260,7 +1291,7 @@ to {
     }
     
     .effet_3:hover:before {
-        transform: rotate(1turn);
+        transform: rotate(2turn);
     }
 
     .plat_check {
@@ -1389,25 +1420,53 @@ to {
         padding-left: 40px;
     }
 
-    .fadein_1 {
-        animation: fadein 2s;
-    }
-
-    .fadein_2 {
-        animation: fadein 4s;
-    }
-
-    .fadein_3 {
-        animation: fadein 6s;
-    }
-
     @keyframes fadein {
-        from {
+        0% {
             opacity:0;
         }
-        to {
+        100% {
             opacity:1;
         }
+    }
+    
+    .fadein_1 {
+        animation: fadein .5s;
+    }
+    
+    .fadein_2 {
+        animation: fadein 1s;
+    }
+    
+    .fadein_3 {
+        animation: fadein 1.5s;
+    }
+    
+    .fadein_4 {
+        animation: fadein 2s;
+    }
+    
+    .fadein_5 {
+        animation: fadein 2.5s;
+    }
+    
+    .fadein_6 {
+        animation: fadein 3s;
+    }
+    
+    .fadein_7 {
+        animation: fadein 3.5s;
+    }
+    
+    .fadein_8 {
+        animation: fadein 4s;
+    }
+    
+    .fadein_9 {
+        animation: fadein 4.5s;
+    }
+    
+    .fadein_10 {
+        animation: fadein 5s;
     }
 
 
@@ -1581,27 +1640,6 @@ to {
         display: none;
     }
 
-    .fadein_1 {
-        animation: fadein 2s;
-    }
-
-    .fadein_2 {
-        animation: fadein 4s;
-    }
-
-    .fadein_3 {
-        animation: fadein 6s;
-    }
-
-    @keyframes fadein {
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
-    }
-
 }
 
 @media only screen and (min-width : 769px) and (max-width: 1080px) {
@@ -1626,16 +1664,6 @@ to {
 
 }
 
-
-
- 
-
-
-
-
-
-
-
 @media only screen and (max-width : 650px) {
 
     body{
@@ -1656,6 +1684,10 @@ to {
         background: none;
     }
 
+    .chiffre {
+        width: 6%;
+    }
+
 }
 
 @media only screen and (max-width : 550px) {
@@ -1667,9 +1699,16 @@ to {
         background: none;
     }
 
+    .res_txt {
+        margin: 3%;
+    }
 }
 
 @media only screen and (max-width : 500px) {
+
+    body {
+        font-size: 140%;
+    }
 
     .back {
         display: flex;
@@ -1678,9 +1717,18 @@ to {
         background: none;
     }
 
+    
+    .chiffre {
+        width: 7%;
+    }
+
 }
 
 @media only screen and (max-width : 450px) {
+
+    body {
+        font-size: 125%;
+    }
 
     .back {
         display: flex;
@@ -1705,10 +1753,17 @@ to {
         font-size: 100%;
     }
 
+    .res_txt {
+        margin: 3%;
+    }
+
 }
 
 @media only screen and (max-width : 400px) {
 
+    body {
+        font-size: 100%;
+    }
     .back {
         display: flex;
         position: relative;
@@ -1724,9 +1779,21 @@ to {
         width: 250px;
     }
 
+    .chiffre {
+        width: 6%;
+    }
+
+    .res_txt {
+        margin: 4%;
+    }
+
 }
 
 @media only screen and (max-width : 350px) {
+
+    body {
+        font-size: 95%;
+    }
 
     .back {
         display: flex;
@@ -1743,6 +1810,14 @@ to {
         width: 200px;
     }
 
+    .chiffre {
+        width: 8%;
+        margin-left: -10px;
+    }
+
+    .res_txt {
+        margin: 5%;
+    }
 }
 
 @media only screen and (max-width : 300px) {
